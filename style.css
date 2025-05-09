@@ -69,7 +69,7 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-primary);
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -213,7 +213,7 @@ main {
   margin-bottom: 2.5rem;
 }
 .color {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
 }
 
 
@@ -262,4 +262,13 @@ background: var(--clr-grey-1);
 .value {
   font-size: 6rem;
   font-weight: bold;
+  border: 4px double var(--clr-grey-1);
+  padding: 5px;
+  border-radius: 1pc;
+}
+.button-container{
+  border: 2px solid ;
+  border-radius: 1pc;
+  margin-top: 10px;
+  padding: 0.3pc;
 }
