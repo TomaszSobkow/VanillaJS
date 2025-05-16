@@ -79,13 +79,13 @@ function showPerson(){
 //show next person
 nextBtn.addEventListener('click',function(){
   currentItem ++;
-  currentItem < reviews.length ? showPerson(currentItem) : showPerson(currentItem = 0 );
+  currentItem < revievLength ? showPerson(currentItem) : showPerson(currentItem = 0 );
 });
 
 //show previous person
 prevBtn.addEventListener('click',function(){
   currentItem--
-  currentItem < 0 ? showPerson(currentItem = reviews.length) : showPerson(currentItem );
+  currentItem < 0 ? showPerson(currentItem = revievLength) : showPerson(currentItem );
 });
 
 
