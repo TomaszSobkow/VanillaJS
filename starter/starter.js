@@ -88,13 +88,9 @@ prevBtn.addEventListener('click',function(){
   currentItem < 0 ? showPerson(currentItem = revievLength) : showPerson(currentItem );
 });
 
-
-
 randomBtn.addEventListener('click', function(){
-  
   let fakeRandomNumber = Math.floor(Math.random() * reviews.length)
   console.log('Random button clicked!',  fakeRandomNumber );
-
   if(fakeRandomNumber == currentItem ){
     if(currentItem >= 0 && currentItem < revievLength) {
       currentItem++;
